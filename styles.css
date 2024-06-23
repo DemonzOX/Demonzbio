@@ -15,13 +15,10 @@ body {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 10;
-    color: #000;
+    color: #FFF;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4), 0 0 40px rgba(255, 255, 255, 0.2);
 }
 
 img {
@@ -84,6 +81,29 @@ img {
     height: 3px;
     background: transparent;
     box-shadow: 366px 724px #FFF, 1570px 202px #FFF, 1939px 1235px #FFF, 765px 1765px #FFF, 264px 1595px #FFF, 1776px 470px #FFF, 1673px 1937px #FFF, 1180px 1124px #FFF, 914px 578px #FFF, 1111px 1353px #FFF, 1929px 1700px #FFF, 739px 1665px #FFF, 783px 942px #FFF, 1209px 1370px #FFF, 677px 1627px #FFF, 1358px 86px #FFF, 1843px 1495px #FFF, 1457px 671px #FFF, 1453px 245px #FFF, 1218px 829px #FFF;
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+    z-index: 10;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4), 0 0 40px rgba(255, 255, 255, 0.2);
+}
+
+#title span {
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @keyframes animStar {
